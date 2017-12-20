@@ -38,14 +38,14 @@ obj are built relative to the current directory. More information about the
 freebsd-wifi-build system: <https://github.com/freebsd/freebsd-wifi-build/wiki>
 
 ## 4. Checkout Source:
-```
+```shell
 $ mkdir ~/omega2p && cd ~/omega2p
 $ git clone https://github.com/freebsd/freebsd.git
 $ git clone https://github.com/freebsd/freebsd-wifi-build.git
 ```
 
 ## 5. Get Device Trees:
-```
+```shell
 $ cd ~/omega2p/src/sys/gnu/dts/mips
 $ fetch https://raw.githubusercontent.com/WereCatf/source/image/target/linux/\
 ramips/dts/OMEGA2.dtsi
